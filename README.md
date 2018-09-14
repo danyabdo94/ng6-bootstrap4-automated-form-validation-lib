@@ -2,25 +2,17 @@
 ## please make sure that this only works for anngular 4+ and bootstrap 4 also
 It easy to use automatic form validation for input ..
 You just need to import module
-import { Ng6Bootstrap4AutomatedFormValidationLibModule } from "ng6-bootstrap4-automated-form-validation-lib"
+> import { Ng6Bootstrap4AutomatedFormValidationLibModule } from "ng6-bootstrap4-automated-form-validation-lib"
 
-@NgModule({
-  declarations: [
-    AppComponent
-  ],
-  imports: [
-    BrowserModule,
-    Ng6Bootstrap4AutomatedFormValidationLibModule],
-  providers: [],
-  bootstrap: [AppComponent]
-})
-export class AppModule { }
+>  imports: [
+>    BrowserModule,
+>    Ng6Bootstrap4AutomatedFormValidationLibModule],
+
 
 and then you only need to 
-* give the form name .. 
-> <form #f="ngForm" (ngSubmit)="save()" name="addFacForm" class="needs-validation">
+* give the form name 
+> <form #f="ngForm" (ngSubmit)="save()" name="addForm" class="needs-validation">
 * add the validation u need to input field and also add the directive name then see the magic .. 
-
 > <input type="text" enlFormValidation [formData]="f" class="form-control" name="name"  required>
 
 
