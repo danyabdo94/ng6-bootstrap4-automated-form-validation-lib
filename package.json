@@ -1,0 +1,31 @@
+{
+  "name": "ng6-bootstrap4-automated-form-validation-lib",
+  "version": "0.0.1",
+  "keywords": [
+    "Angular",
+    "Library",
+    "Bootstrap",
+    "Form"
+  ],
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/t-palmer/ng-example-library"
+  },
+  "peerDependencies": {
+    "@angular/common": "^6.0.0-rc.0 || ^6.0.0",
+    "@angular/core": "^6.0.0-rc.0 || ^6.0.0"
+  },
+  "main": "bundles/ng6-bootstrap4-automated-form-validation-lib.umd.js",
+  "module": "fesm5/ng6-bootstrap4-automated-form-validation-lib.js",
+  "es2015": "fesm2015/ng6-bootstrap4-automated-form-validation-lib.js",
+  "esm5": "esm5/ng6-bootstrap4-automated-form-validation-lib.js",
+  "esm2015": "esm2015/ng6-bootstrap4-automated-form-validation-lib.js",
+  "fesm5": "fesm5/ng6-bootstrap4-automated-form-validation-lib.js",
+  "fesm2015": "fesm2015/ng6-bootstrap4-automated-form-validation-lib.js",
+  "typings": "ng6-bootstrap4-automated-form-validation-lib.d.ts",
+  "metadata": "ng6-bootstrap4-automated-form-validation-lib.metadata.json",
+  "sideEffects": false,
+  "dependencies": {
+    "tslib": "^1.9.0"
+  }
+}

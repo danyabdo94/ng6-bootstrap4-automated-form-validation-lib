@@ -1,0 +1,13 @@
+/**
+ * @fileoverview added by tsickle
+ * @suppress {checkTypes,extraRequire,uselessCode} checked by tsc
+ */
+/*
+ * Public API Surface of ng6-bootstrap4-automated-form-validation-lib
+ */
+export { Ng6Bootstrap4AutomatedFormValidationLibService } from './lib/ng6-bootstrap4-automated-form-validation-lib.service';
+export { Ng6Bootstrap4AutomatedFormValidationLibComponent } from './lib/ng6-bootstrap4-automated-form-validation-lib.component';
+export { Ng6Bootstrap4AutomatedFormValidationLibModule } from './lib/ng6-bootstrap4-automated-form-validation-lib.module';
+export { FormValidationDirective } from './lib/form-validation.directive';
+
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoicHVibGljX2FwaS5qcyIsInNvdXJjZVJvb3QiOiJuZzovL25nNi1ib290c3RyYXA0LWF1dG9tYXRlZC1mb3JtLXZhbGlkYXRpb24tbGliLyIsInNvdXJjZXMiOlsicHVibGljX2FwaS50cyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiOzs7Ozs7O0FBSUEsK0RBQWMsNERBQTRELENBQUM7QUFDM0UsaUVBQWMsOERBQThELENBQUM7QUFDN0UsOERBQWMsMkRBQTJELENBQUM7QUFDMUUsd0NBQWMsaUNBQWlDLENBQUMiLCJzb3VyY2VzQ29udGVudCI6WyIvKlxuICogUHVibGljIEFQSSBTdXJmYWNlIG9mIG5nNi1ib290c3RyYXA0LWF1dG9tYXRlZC1mb3JtLXZhbGlkYXRpb24tbGliXG4gKi9cblxuZXhwb3J0ICogZnJvbSAnLi9saWIvbmc2LWJvb3RzdHJhcDQtYXV0b21hdGVkLWZvcm0tdmFsaWRhdGlvbi1saWIuc2VydmljZSc7XG5leHBvcnQgKiBmcm9tICcuL2xpYi9uZzYtYm9vdHN0cmFwNC1hdXRvbWF0ZWQtZm9ybS12YWxpZGF0aW9uLWxpYi5jb21wb25lbnQnO1xuZXhwb3J0ICogZnJvbSAnLi9saWIvbmc2LWJvb3RzdHJhcDQtYXV0b21hdGVkLWZvcm0tdmFsaWRhdGlvbi1saWIubW9kdWxlJztcbmV4cG9ydCAqIGZyb20gJy4vbGliL2Zvcm0tdmFsaWRhdGlvbi5kaXJlY3RpdmUnO1xuIl19
