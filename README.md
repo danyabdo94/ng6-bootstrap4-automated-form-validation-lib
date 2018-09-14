@@ -18,9 +18,10 @@ export class AppModule { }
 
 and then you only need to 
 * give the form name .. 
-      <form #f="ngForm" (ngSubmit)="save()" name="addFacForm" class="needs-validation">
+> <form #f="ngForm" (ngSubmit)="save()" name="addFacForm" class="needs-validation">
 * add the validation u need to input field and also add the directive name then see the magic .. 
-              <input type="text" enlFormValidation [formData]="f" class="form-control" name="name"  required>
+
+> <input type="text" enlFormValidation [formData]="f" class="form-control" name="name"  required>
 
 
 # Ng6Bootstrap4AutomatedFormValidationApp
